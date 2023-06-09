@@ -1,0 +1,24 @@
+{
+  "name": "tailwindcss-landing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "sass": "^1.62.1",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9",
+    "vite-plugin-imagemin": "^0.6.1",
+    "vite-plugin-minify": "^1.5.2"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "vite-plugin-html-inject": "^1.0.1"
+  }
+}

@@ -1,0 +1,90 @@
+<header class="fixed w-full left-0 top-0 z-[2] transition-colors">
+    <div
+        class="container mx-auto px-3 flex justify-between items-center min-h-[75px] md:min-h-[95px] lg:min-h-[104px]"
+    >
+        <a
+            href="#"
+            class="block rounded w-20 h-8 focus:outline-none focus:ring-2 focus:ring-blue-600 cursor-pointer"
+            data-aos="fade-right"
+        >
+            <img
+                src="/src/assets/svg/odigo_logo.svg"
+                alt="odigo logo"
+                class="w-full h-full object-contain"
+            />
+        </a>
+        <button
+            class="burger w-10 h-10 absolute right-4 top-1/2 -translate-y-1/2 lg:hidden"
+        >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-10 h-10 text-slate-100"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+            </svg>
+        </button>
+        <nav
+            class="nav w-full h-[calc(100*var(--vh-menu))] fixed top-0 -right-[100%] transition-all md:w-[50%] lg:w-auto lg:h-auto lg:static lg:transition-none"
+        >
+            <button
+                class="close absolute right-4 top-4 w-10 h-10 flex items-center justify-center lg:hidden"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="3"
+                    stroke="currentColor"
+                    class="block w-6 h-6 text-slate-100"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6 18L18 6M6 6l12 12"
+                    />
+                </svg>
+            </button>
+            <ul
+                class="flex flex-col items-center w-full h-[calc(100*var(--vh-menu))] ml-auto bg-main-blue pt-20 lg:flex-row lg:w-max lg:ml-[unset] lg:min-h-[unset] lg:pt-0 lg:bg-transparent lg:static lg:h-auto"
+                data-aos="fade-left"
+            >
+                <li>
+                    <a
+                        href="#"
+                        class="inline-block rounded p-3 text-slate-100 text-md font-normal transition-opacity hover:opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                        >Articles</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="#"
+                        class="inline-block rounded p-3 text-slate-100 text-md font-normal transition-opacity hover:opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                        >Locations</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="#"
+                        class="inline-block rounded p-3 text-slate-100 text-base font-normal transition-opacity hover:opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                        >Videos</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="#"
+                        class="inline-block rounded p-3 text-slate-100 text-base font-normal transition-opacity hover:opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                        >Sign in</a
+                    >
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
