@@ -58,9 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
     close.addEventListener('click', handleCloseMobileMenu);
 
     //handle close if click on a link at mobile menu
-    links.forEach(link => {
-        link.addEventListener('click', handleCloseMobileMenu);
-    });
+    links.forEach(link =>
+        link.addEventListener('click', handleCloseMobileMenu)
+    );
     //click outside
     window.addEventListener('click', handleCloseMobileMenu);
 });
