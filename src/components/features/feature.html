@@ -1,26 +1,10 @@
 <div class="min-h-[772px] w-full flex flex-wrap gap-14 md:gap-[103px]">
     <div class="w-full h-[354px]" data-aos="fade-up">
-        <img
-            src="{=$image}"
-            alt="{=$imageAlt}"
-            class="w-full h-full object-cover"
-        />
+        <img src="{=$image}" alt="{=$imageAlt}" class="w-full h-full object-cover" loading="lazy" />
     </div>
     <div>
-        <h3
-            class="text-3xl font-bold w-3/5 mb-11"
-            data-aos="fade-up"
-            data-aos-delay="100"
-        >
-            {=$title}
-        </h3>
-        <p
-            class="text-base font-normal mb-10 md:mb-[84px]"
-            data-aos="fade-up"
-            data-aos-delay="110"
-        >
-            {=$description}
-        </p>
+        <h3 class="text-3xl font-bold w-3/5 mb-11" data-aos="fade-up" data-aos-delay="100">{=$title}</h3>
+        <p class="text-base font-normal mb-10 md:mb-[84px]" data-aos="fade-up" data-aos-delay="110">{=$description}</p>
         <div data-aos="fade-up" data-aos-delay="120">
             <load ="src/components/main-link" text="{=$linkText}" />
         </div>
